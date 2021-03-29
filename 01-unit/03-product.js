@@ -26,7 +26,8 @@ try {
   // Test Case 3
   // --------------------------------------------------
   // It should ignore additional numbers.
-
+  var result = product(3, 3, 3, 4);
+  if (result !== 9) throw new Error('Expected product(3, 3, 3, 4) to be 9. Received: ' + result);
   // --------------------------------------------------
   // Test Case 4
   // --------------------------------------------------
